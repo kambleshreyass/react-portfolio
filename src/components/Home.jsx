@@ -1,6 +1,6 @@
 import { motion } from "framer-motion"
 import  Typewriter  from "typewriter-effect"
-import {BsArrowUpRight} from 'react-icons/bs'
+import {BsArrowUpRight, BsChevronDown} from 'react-icons/bs'
 import myself from "../assets/programming (1).png"
 
 const Home = () => {
@@ -47,18 +47,20 @@ const Home = () => {
             <a href="mailto:kshreyass59@gamail.com">Hire Me</a>
             <a href="#projects">Projects <BsArrowUpRight/></a>
           </div>
-        </div>
-        <div>
-          <article>
+         <div>
+         <aside>
+         <article>
             <p>+<span>100</span></p>
             <span>Clients Worldwide</span>
           </article>
 
+         </aside>
+         
 
           <aside>
           <article>
             <p>+<span>500</span></p>
-            <span>Projects Made</span>
+            <span>Projects Done</span>
           </article>
           </aside>
 
@@ -66,12 +68,13 @@ const Home = () => {
             <p>Contact</p>
             <span>kshreyass59@gmail.com</span>
           </article>
+         </div>
         </div>
-
       </section>
       <section>
         <img src={myself} alt="Shreyas Kamble" />
       </section>
+      <BsChevronDown/>
     </div>
   )
 }
