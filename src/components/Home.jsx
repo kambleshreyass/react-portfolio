@@ -1,9 +1,19 @@
-import { motion } from "framer-motion"
+import { animate, motion } from "framer-motion"
 import  Typewriter  from "typewriter-effect"
 import {BsArrowUpRight, BsChevronDown} from 'react-icons/bs'
-import myself from "../assets/coding (1).png"
+import myself from "../assets/Cartoon-removebg-preview.png"
+import { useRef } from "react"
 
 const Home = () => {
+
+  // const clientCount = useRef(null);
+
+  // const animationClientsCount = () =>{
+  //   animate(0,100,{
+  //     duration: 1,
+  //     onUpdate:(v)=>clientCount.current.textContent = v,
+  //   })
+  // }
 
   const animation = {
     h1:{
@@ -32,7 +42,7 @@ const Home = () => {
       <section>
         <div>
           <motion.h1 {...animation.h1}>
-            <p>Hi, I'm <br />Shreyas Kamble</p>
+            <p>Hi, I am <br />Shreyas Kamble</p>
           </motion.h1>
 
           <Typewriter options={{
@@ -48,26 +58,25 @@ const Home = () => {
             <a href="#projects">Projects <BsArrowUpRight/></a>
           </div>
          <div>
-         <aside>
+         {/* <aside>
          <article>
             <p>+<span>100</span></p>
             <span>Clients Worldwide</span>
           </article>
-
-         </aside>
+         </aside> */}
          
 
-          <aside>
+          {/* <aside>
           <article>
-            <p>+<span>500</span></p>
+            <p>+<motion.span whileInView={animationClientsCount} ref={clientCount}></motion.span></p>
             <span>Projects Done</span>
           </article>
-          </aside>
+          </aside> */}
 
-          <article data-contact>
+          {/* <article data-contact>
             <p>Contact</p>
             <span>kshreyass59@gmail.com</span>
-          </article>
+          </article> */}
          </div>
         </div>
       </section>

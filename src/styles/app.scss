@@ -3,9 +3,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
 
 @import "statics";
+@import "animations";
 @import "header";
 @import "home.scss";
-@import "animations";
+@import "projects.scss";
+
 
 *{
   padding: 0;
