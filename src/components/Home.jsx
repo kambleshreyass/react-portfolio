@@ -1,7 +1,7 @@
 import { motion } from "framer-motion"
 import  Typewriter  from "typewriter-effect"
 import {BsArrowUpRight, BsChevronDown} from 'react-icons/bs'
-import myself from "../assets/programming (1).png"
+import myself from "../assets/coding (1).png"
 
 const Home = () => {
 
@@ -32,7 +32,7 @@ const Home = () => {
       <section>
         <div>
           <motion.h1 {...animation.h1}>
-            <p>Hi, I Am <br />Shreyas Kamble</p>
+            <p>Hi, I'm <br />Shreyas Kamble</p>
           </motion.h1>
 
           <Typewriter options={{
