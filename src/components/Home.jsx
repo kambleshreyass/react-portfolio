@@ -83,7 +83,7 @@ const Home = () => {
       <section>
         <img src={myself} alt="Shreyas Kamble" />
       </section>
-      <BsChevronDown/>
+      <a className="scroll" href="#projects"><BsChevronDown/></a>
     </div>
   )
 }

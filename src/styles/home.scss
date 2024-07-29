@@ -108,7 +108,17 @@
     }
     
   }
-  > svg {
+  // > svg {
+  //   position: absolute;
+  //   font-size: 4rem;
+  //   color: $color5;
+  //   left: 50%;
+  //   bottom: 5%;
+  //   transform: translate(-50%);
+  //   animation: animateSvg 0.7s infinite linear alternate;
+  //   cursor: pointer;
+  // }
+  .scroll{
     position: absolute;
     font-size: 4rem;
     color: $color5;
@@ -116,5 +126,6 @@
     bottom: 5%;
     transform: translate(-50%);
     animation: animateSvg 0.7s infinite linear alternate;
+    cursor: pointer;
   }
 }
